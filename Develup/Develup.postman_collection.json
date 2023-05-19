@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "2d0682c2-1be8-474d-867b-45a16f4becf5",
+		"name": "Develup",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26610914",
+		"_collection_link": "https://droame-assignment.postman.co/workspace/Team-Workspace~e7b57f99-b72b-4ab4-8577-e5e806a53ac0/collection/26610914-2d0682c2-1be8-474d-867b-45a16f4becf5?action=share&creator=26610914&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/product/add",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/product/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"product",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/product/product_details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/product/product_details",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"product",
+						"product_details"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/product/top_selling",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/product/top_selling",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"product",
+						"top_selling"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/product/update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"barcode\": 40111445,\r\n        \"itemDescription\": \"M&M STD BAG\",\r\n        \"groupName\": \"Confectionary\",\r\n        \"size\": \"45G\",\r\n        \"quantity\": 77.0,\r\n        \"price\": 1.1,\r\n        \"profit\": 41.7406,\r\n        \"remainingQuantity\": 77.0\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/product/update",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"product",
+						"update"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
